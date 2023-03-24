@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random random=new Random();
-                int color= Color.argb(255,random.nextInt(223),random.nextInt(223),random.nextInt(223));
+                int color = Color.argb(255,random.nextInt(223),random.nextInt(223),random.nextInt(223));
                 layout.setBackgroundColor(color);
             }
         });
